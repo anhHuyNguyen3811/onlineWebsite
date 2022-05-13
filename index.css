@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+body{
+    font-weight: normal;
+    font-family: inherit;
+}
+.header{
+    height: 50px;
+    margin: 0;
+    display: inline;
+}
+/*Logo*/
+.logo-container{
+    /*change color of svg*/
+    fill:red;
+    position: absolute;
+    top: 25px;
+    left: 40px;
+}
+/*Search Bar*/
+.placeholder{
+    position: absolute;
+    top: 30px;
+    left: 200px;
+    width:100px;
+}
+.input{
+    height:30px;
+    width:600%;
+    border-radius: 0.25rem;
+}
+/*Symbols*/
+ul li{
+    list-style-type: none;
+    display: inline;
+    font-size: 12px;
+}
+.icon-heart{
+    position: absolute;
+    top: 34px;
+    right: 550px;
+    fill: red;
+}
+.btn{
+  background-color: #000; /* Green */
+  border: none;
+  position: absolute;
+  top: 28px;
+  right: 400px;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+.Login-btn{
+  position: absolute;
+  top: 32px;
+  right: 310px;
+  color: black;
+}
+/*Task bar*/
+.nav{
+    width: 100vw;
+    position: absolute;
+    top: 90.5px;
+    left: 40px;
+}
+a{
+    text-decoration: none;
+}
+.navbar ul {
+    padding: 0;
+    list-style: none;
+}
+.navbar ul  li{
+    display: inline-block;
+    position: relative;
+    line-height: 21px;
+    text-align: left;
+    font-weight: bold;
+}
+.navbar ul  li a{
+    display: block;
+    padding: 0.75rem 1rem;
+    color: #333;
+    font-size: 16px;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    color: #fff;
+    background: #000;
+}
+.navbar ul li ul.dropdown{
+    min-width: 100%; /* Set width of the dropdown */
+    background: #f2f2f2;
+    display: none;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+}
+.navbar ul li:hover ul.dropdown{
+    display: block;	/* Display the dropdown */
+}
+.navbar ul li ul.dropdown li{
+    display: block;
+}
